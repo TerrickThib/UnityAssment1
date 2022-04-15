@@ -706,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Player: {fileID: 322242508}
-  Force: 10
+  Force: 100
 --- !u!1 &553078748
 GameObject:
   m_ObjectHideFlags: 0
