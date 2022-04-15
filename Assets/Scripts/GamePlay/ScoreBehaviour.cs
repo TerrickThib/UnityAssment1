@@ -15,12 +15,13 @@ public class ScoreBehaviour : MonoBehaviour
     }
     void Update()
     {
+        //Creates a timer that counts up
         stopwatchActive = true;
         if (stopwatchActive == true)
         {
             currentTime = currentTime + Time.deltaTime;
         }
         System.TimeSpan time = System.TimeSpan.FromSeconds(currentTime);
-        currentTimeText.text = time.Seconds.ToString();
+        currentTimeText.text = time.Minutes.ToString() + ":" + time.Seconds.ToString();
     }
 }
